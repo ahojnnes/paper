@@ -14,4 +14,4 @@ for ax, im, ti in zip(axes, images, titles):
     ax.set_title(ti)
 
 plt.tight_layout()
-plt.savefig('fig_pl.pdf')
+plt.savefig('fig_pl.pdf', dpi=600)

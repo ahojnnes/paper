@@ -75,4 +75,4 @@ for region in regionprops(label_image):
                               fill=False, edgecolor='red', linewidth=2)
     ax5.add_patch(rect)
 
-plt.savefig('getting_started.pdf')
+plt.savefig('getting_started.pdf', dpi=600)

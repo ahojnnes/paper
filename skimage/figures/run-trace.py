@@ -45,4 +45,4 @@ axes[2].set_xticks(np.arange(200, 1100, 400))
 axes[2].set_title('Intensity profile')
 
 plt.tight_layout()
-plt.savefig('fig2.pdf')
+plt.savefig('fig2.pdf', dpi=600)
